@@ -12,7 +12,7 @@ def create_initial_grid(rows, cols):
         grid_rows = []
         for col in range(cols):
             #Randomize addition of dead and alive cells to the grid
-            if random.randint(0, 7) == 0:
+            if random.randint(0, 5) == 0:
                 grid_rows += [1]
             else:
                 grid_rows += [0]
